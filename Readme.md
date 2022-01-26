@@ -1,4 +1,5 @@
 # Express OAuth Server [![Build Status](https://travis-ci.org/oauthjs/express-oauth-server.png?branch=master)](https://travis-ci.org/oauthjs/express-oauth-server)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fcmboling%2Fexpress-oauth-server.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fcmboling%2Fexpress-oauth-server?ref=badge_shield)
 
 Complete, compliant and well tested module for implementing an OAuth2 Server/Provider with [express](https://github.com/expressjs/express) in [node.js](http://nodejs.org/).
 
@@ -59,3 +60,7 @@ var options = {
   **Note:** You cannot modify the response since the headers have already been sent.
 
   `authenticate()` does not modify the response and will always call next()
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fcmboling%2Fexpress-oauth-server.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fcmboling%2Fexpress-oauth-server?ref=badge_large)
